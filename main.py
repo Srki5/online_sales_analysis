@@ -12,5 +12,7 @@ manager.dodaj_proizvod(mouse)
 monitor = Product("monitor", 30, 50)
 manager.dodaj_proizvod(monitor)
 manager.prikazi_sve_proizvode()
-manager.ukupna_vrednost()
 print (manager.ukupna_vrednost())
+
+manager.izbrisi_proizvod(mouse)
+manager.prikazi_sve_proizvode()

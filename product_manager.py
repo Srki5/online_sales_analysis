@@ -14,3 +14,6 @@ class ProductManager:
     def prikazi_sve_proizvode(self):
         for product in self.products:
             product.prikazi_informacije()
+    def izbrisi_proizvod(self, proizvod):
+        self.products.remove(proizvod)
+        
